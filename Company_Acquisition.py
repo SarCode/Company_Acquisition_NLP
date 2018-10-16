@@ -7,7 +7,7 @@ sheet = book.active
 
 id=[]
 title=[]
-
+##reading title
 for i in range (2,902):
     temp_i='A'+str(i)
     temp_title_i='B'+str(i)
@@ -326,14 +326,14 @@ sheet1.write(0, 3, 'TAR')
 for i in range(0, len(acq_id)):
     sheet1.write(i+1, 0, check_acq[i])
     sheet1.write(i+1, 1, acq_title[i])
-    sheet1.write(i+1, 2, corp_l_acq[i])#baap
-    sheet1.write(i+1, 3, corp_r_acq[i])#beta
+    sheet1.write(i+1, 2, corp_l_acq[i])#ACQ
+    sheet1.write(i+1, 3, corp_r_acq[i])#TAR
 
 for i in range(36,len(buy_id)):
     sheet1.write(i+1, 0, check_buy[i])
     sheet1.write(i+1, 1, buy_title[i])
-    sheet1.write(i+1, 2, corp_l[i])#baap
-    sheet1.write(i+1, 3, corp_r[i])#beta
+    sheet1.write(i+1, 2, corp_l[i])#ACQ
+    sheet1.write(i+1, 3, corp_r[i])#TAR
 
     
 wb.save('test.xls')
