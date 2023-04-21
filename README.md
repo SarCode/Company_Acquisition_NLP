@@ -1,3 +1,8 @@
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=sarcode&label=Profile%20views&color=0e75b6&style=flat" alt="sarcode" /> </p>
+
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+
 # Company_Acquisition_NLP
 Statement contains a news about acquisition of a company , by a company and it predicts using Natural Language Processing about [ Acquired_Final ] &amp; [ Acquired_Target ]
 
@@ -27,6 +32,5 @@ Problem_Statement_ML_MnA.zip
 in repository for dataset and description of dataset
 
 
-
-
-
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/sarthak-agarwal-dell/
